@@ -1,8 +1,29 @@
+.email-background {
+  background: #eee;
+  padding: 10px; }
+
 .email-container, .pre-header {
   max-width: 500px;
-  background: green; }
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px; }
+
+.pre-header {
+  background: #eee;
+  color: #eee;
+  font-size: 5px; }
 
 img {
   max-width: 100%; }
+
+p {
+  margin: 20px;
+  font-size: 16px; }
+
+a {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

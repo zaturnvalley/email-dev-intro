@@ -1,1 +1,1 @@
-# email-dev-intro
+# Basic Responsive HTML Email
