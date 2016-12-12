@@ -31,6 +31,9 @@ p {
   margin: 20px; }
   .cta a {
     text-decoration: none;
-    display: inline-block; }
+    display: inline-block;
+    background: #0066ff;
+    color: white;
+    padding: 10px 20px; }
 
 /*# sourceMappingURL=style.css.map */
