@@ -2,19 +2,48 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <style type="text/css">
+      @media screen and (max-width: 600px) {
+
+        table[class="responsive-table"] {
+          width: 100% !important;
+        }
+
+        img[class="responsive-image"] {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+
+        td[class="headline"] {
+          font-size: 36px !important;
+          background: #222;
+          color: #fff;
+          padding-bottom: 20px;
+        }
+
+      }
+    </style>
   </head>
   <body>
     
     <!-- FULL WIDTH CONTAINER -->
     <table width="100%" cellspacing="0" cellpadding="0" border="0">
       <tr>
-        <td>
+        <td align="center">
 
           <!-- 600px CONTAINER -->
-          <table width="600" cellspacing="0" cellpadding="0" border="0">
+          <table width="600" cellspacing="0" cellpadding="0" border="0" class="responsive-table">
             <tr>
               <td>
+
+                <img src="marley.jpg" width="600" height="300" class="responsive-image">
+
               </td>
+            </tr>
+            <tr>
+              <ul align="center" style="font-size: 40px; padding-top: 20px;" class="headline">
+                I &hearts; Dogs!
+              </ul>
             </tr>
           </table>
 
