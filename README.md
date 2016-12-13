@@ -1,2 +1,3 @@
 # Basic Fluid + Responsive HTML Email Projects
-* Two folders with two different email projects
+* Two directives with two different email projects
+** One responsive, one fluid
